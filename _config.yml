@@ -1,0 +1,30 @@
+title: CarterFeild
+description: Crafting compelling stories for digital engagement.
+author: Carter Feild
+email: Carter@CarterFeild.com
+
+# If deploying to a custom domain (carterfeild.com), leave baseurl empty.
+# If deploying to a project page (e.g. username.github.io/carterfeild), set baseurl: "/carterfeild"
+baseurl: ""
+url: "https://carterfeild.com"
+
+# Blog post URLs: /blog/post-title/
+permalink: /blog/:title/
+
+# Exclude files Jekyll shouldn't process
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Plugins (all supported on GitHub Pages)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Social links (optional — useful for SEO tag)
+social:
+  links:
+    - https://www.facebook.com/carter.feild.90
+    - https://www.instagram.com/carterfeildpr/
+    - https://www.linkedin.com/in/carterfeild/

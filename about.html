@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | CarterFeild</title>
+  <meta name="description" content="Learn about CarterFeild PR — who we are and who is Carter Feild." />
+  <meta property="og:title" content="About | CarterFeild" />
+  <meta property="og:image" content="https://img1.wsimg.com/isteam/getty/625727674" />
+  <meta name="theme-color" content="#ffe0e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --pink-light:#ffe0e9; --pink-mid:#f9b8cb; --pink-dark:#d4637a; --text:#2c2c2c; --text-muted:#666; --white:#ffffff; --radius:8px; --max-w:1100px; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Quicksand', sans-serif; color: var(--text); background: var(--white); min-height: 100vh; display: flex; flex-direction: column; }
+    .logo-wrap { display: flex; flex-direction: column; line-height: 1; }
+    .logo-script { font-family: 'Great Vibes', cursive; font-size: 2rem; color: var(--pink-dark); line-height: 1; }
+    .logo-sub { font-family: 'Quicksand', sans-serif; font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 1px; }
+    .carter-photo { width: 100%; max-width: 420px; border-radius: var(--radius); box-shadow: 0 8px 28px rgba(0,0,0,0.12); object-fit: cover; }
+    a { color: inherit; text-decoration: none; }
+    header { position: sticky; top: 0; z-index: 100; background: var(--white); border-bottom: 2px solid var(--pink-light); padding: 0 1.5rem; }
+    .nav-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+    .logo { font-size: 1.5rem; font-weight: bold; letter-spacing: 0.04em; color: var(--pink-dark); font-style: italic; }
+    nav ul { list-style: none; display: flex; gap: 2rem; }
+    nav a { font-size: 0.95rem; font-family: 'Arial', sans-serif; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text); padding-bottom: 4px; border-bottom: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
+    nav a:hover, nav a.active { color: var(--pink-dark); border-bottom-color: var(--pink-dark); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 24px; height: 2px; background: var(--text); }
+    .mobile-nav { display: none; flex-direction: column; background: var(--white); border-top: 1px solid var(--pink-light); padding: 1rem 1.5rem; }
+    .mobile-nav a { padding: 0.6rem 0; border-bottom: 1px solid var(--pink-light); font-family: 'Arial', sans-serif; font-size: 0.95rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text); }
+    .mobile-nav a:hover, .mobile-nav a.active { color: var(--pink-dark); }
+    .mobile-nav.open { display: flex; }
+    main { flex: 1; }
+    section { padding: 4rem 2rem; }
+    .container { max-width: var(--max-w); margin: 0 auto; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); color: var(--pink-dark); margin-bottom: 2rem; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+    .about-block h4 { font-family: 'Arial', sans-serif; font-size: 1rem; font-weight: bold; color: var(--text); margin-bottom: 0.6rem; }
+    .about-block p { font-size: 1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 1rem; }
+    .divider { border: none; border-top: 1px solid var(--pink-light); margin: 0; }
+    .contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+    .contact-form-wrap h2 { font-size: 1.6rem; color: var(--pink-dark); margin-bottom: 0.4rem; }
+    .contact-form-wrap h4 { font-family: 'Arial', sans-serif; color: var(--text-muted); margin-bottom: 1.5rem; font-weight: normal; }
+    .form-group { margin-bottom: 1rem; }
+    .form-group label { display: block; font-size: 0.85rem; font-family: 'Arial', sans-serif; margin-bottom: 0.3rem; color: var(--text); }
+    .form-group input { width: 100%; padding: 0.65rem 0.9rem; border: 1px solid var(--pink-mid); border-radius: var(--radius); font-size: 0.95rem; font-family: 'Georgia', serif; background: #fff; transition: border-color 0.2s; }
+    .form-group input:focus { outline: none; border-color: var(--pink-dark); }
+    .recaptcha-note { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .recaptcha-note a { color: var(--pink-dark); text-decoration: underline; }
+    .btn { display: inline-block; background: var(--pink-dark); color: var(--white); padding: 0.75rem 2rem; border-radius: var(--radius); font-family: 'Arial', sans-serif; font-size: 0.95rem; letter-spacing: 0.04em; transition: background 0.2s; border: none; cursor: pointer; }
+    .btn:hover { background: #b8536a; }
+    .contact-info h4 { font-family: 'Arial', sans-serif; font-size: 1rem; color: var(--text); margin-bottom: 0.5rem; margin-top: 1.25rem; }
+    .contact-info p, .contact-info a { font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
+    .contact-info a:hover { color: var(--pink-dark); }
+    .social-links { display: flex; gap: 1rem; margin-top: 0.75rem; flex-wrap: wrap; }
+    .social-links a { display: inline-flex; align-items: center; padding: 0.45rem 1rem; background: var(--pink-light); border-radius: 20px; font-family: 'Arial', sans-serif; font-size: 0.85rem; color: var(--text); transition: background 0.2s, color 0.2s; }
+    .social-links a:hover { background: var(--pink-dark); color: var(--white); }
+    .form-success { display: none; background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 0.75rem 1rem; border-radius: var(--radius); margin-top: 0.5rem; font-family: 'Arial', sans-serif; font-size: 0.9rem; }
+    footer { background: var(--pink-light); border-top: 2px solid var(--pink-mid); text-align: center; padding: 1.5rem 1rem; font-family: 'Arial', sans-serif; font-size: 0.82rem; color: var(--text-muted); }
+    #cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background: var(--white); border-top: 2px solid var(--pink-mid); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; z-index: 200; flex-wrap: wrap; }
+    #cookie-banner p { font-size: 0.88rem; color: var(--text-muted); }
+    #cookie-banner button { background: var(--pink-dark); color: var(--white); border: none; padding: 0.5rem 1.5rem; border-radius: var(--radius); cursor: pointer; font-size: 0.88rem; }
+    #cookie-banner button:hover { background: #b8536a; }
+    @media (max-width: 768px) {
+      nav ul { display: none; } .hamburger { display: flex; }
+      .about-grid { grid-template-columns: 1fr; }
+      .contact-layout { grid-template-columns: 1fr; }
+      .nav-inner { height: 56px; }
+      .about-layout { grid-template-columns: 1fr !important; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo-wrap">
+      <span class="logo-script">Carter Feild</span>
+      <span class="logo-sub">CarterFeild PR</span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="book.html" style="color:var(--pink-dark);border-bottom:2px solid var(--pink-dark);padding-bottom:4px;">Book</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-nav" id="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="services.html">Services</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="container">
+      <h1>About</h1>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:start;margin-top:2rem;">
+        <!-- Left: text -->
+        <div>
+          <h4 style="font-family:'Arial',sans-serif;font-size:1rem;font-weight:bold;color:var(--text);margin-bottom:0.6rem;">About CarterFeild PR</h4>
+          <p style="font-size:1rem;line-height:1.8;color:var(--text-muted);margin-bottom:1.5rem;">CarterFeild PR was launched in 2025. It is a modern public relations and advertising agency dedicated to helping brands stand out, connect authentically, and grow with purpose. We specialize in strategic communication, social media management, event coverage, and compelling content creation that captures attention and builds lasting impressions. Whether you're a startup or an established brand, CarterFeild PR is here to elevate your story.</p>
+          <h4 style="font-family:'Arial',sans-serif;font-size:1rem;font-weight:bold;color:var(--text);margin-bottom:0.6rem;">Who is Carter Feild?</h4>
+          <p style="font-size:1rem;line-height:1.8;color:var(--text-muted);margin-bottom:1rem;">Carter Feild is the founder and operator of CarterFeild PR. Carter graduated from High Point University in May 2026 with a Bachelor of Arts in Advertising, Public Relations &amp; Strategic Communication. She is continuing her studies at High Point University's Communication and Business Leadership Masters Program to enhance her skills in compelling storytelling and engaging advertising.</p>
+          <p style="font-size:1rem;line-height:1.8;color:var(--text-muted);">With a broad background in strategic communications, advertising, public relations and a love for helping people and brands shine, Carter launched CarterFeild PR to bring fresh, authentic, and impactful PR ideas to life. Carter has a growing passion for creativity and innovation, allowing her to thrive in making meaningful connections and lasting impressions. When you work with Carter, you are not just getting a service &mdash; you're getting a partner who's all in.</p>
+        </div>
+        <!-- Right: photo -->
+        <div>
+          <img src="https://img1.wsimg.com/isteam/ip/78d47d2c-35f9-4ef7-b3a2-67fd8ff7d859/Facetune_01-10-2025-22-39-17.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:800,m" alt="Carter Feild" class="carter-photo" loading="lazy" style="width:100%;border-radius:var(--radius);box-shadow:0 8px 28px rgba(0,0,0,0.12);object-fit:cover;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <section>
+    <div class="container contact-layout">
+      <div class="contact-form-wrap">
+        <h2>Contact Us</h2>
+        <h4>Drop us a line!</h4>
+        <form id="contact-form" onsubmit="handleForm(event)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com" />
+          </div>
+          <p class="recaptcha-note">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
+          <button type="submit" class="btn">Send</button>
+          <div class="form-success" id="form-success">Thanks! We'll be in touch soon.</div>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h4>We are here to help!</h4>
+        <p>We believe that a business with a great public relations team can make a great impact on the world. Take the first step: contact us, and together, we will help you get your message to the world.</p>
+        <h4>CarterFeild</h4>
+        <a href="mailto:Carter@CarterFeild.com">Carter@CarterFeild.com</a>
+        <h4 style="margin-top:1.5rem;">Connect With Us</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/carter.feild.90" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/carterfeildpr/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/in/carterfeild/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Copyright &copy; 2025 CarterFeild and FeildInc &mdash; All Rights Reserved.</p>
+</footer>
+
+<div id="cookie-banner">
+  <p>We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.</p>
+  <button id="accept-cookies">Accept</button>
+</div>
+
+<script>
+  document.getElementById('hamburger').addEventListener('click', function() { document.getElementById('mobile-nav').classList.toggle('open'); });
+  function handleForm(e) { e.preventDefault(); var s = document.getElementById('form-success'); s.style.display='block'; e.target.reset(); setTimeout(function(){ s.style.display='none'; }, 5000); }
+  if (localStorage.getItem('cf_cookies')) document.getElementById('cookie-banner').style.display = 'none';
+  document.getElementById('accept-cookies').addEventListener('click', function() { localStorage.setItem('cf_cookies','1'); document.getElementById('cookie-banner').style.display='none'; });
+</script>
+</body>
+</html>
