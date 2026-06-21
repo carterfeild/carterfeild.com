@@ -1,5 +1,3 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,53 +37,19 @@
     main { flex: 1; }
     section { padding: 4rem 2rem; }
     .container { max-width: var(--max-w); margin: 0 auto; }
-
-    /* Logo grid */
-    .logos-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 1.75rem;
-    }
-    .logo-card {
-      background: var(--white);
-      border: 1px solid var(--pink-light);
-      border-radius: var(--radius);
-      padding: 2rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
-      transition: box-shadow 0.2s, transform 0.2s;
-      min-height: 120px;
-    }
+    .logos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.75rem; }
+    .logo-card { background: var(--white); border: 1px solid var(--pink-light); border-radius: var(--radius); padding: 2rem 1.5rem; display: flex; align-items: center; justify-content: center; min-height: 130px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); transition: box-shadow 0.2s, transform 0.2s; }
     .logo-card:hover { box-shadow: 0 6px 22px rgba(212,99,122,0.18); transform: translateY(-3px); }
-    .logo-card img {
-      max-width: 100%;
-      max-height: 80px;
-      object-fit: contain;
-      filter: grayscale(20%);
-      transition: filter 0.2s;
-    }
+    .logo-card img { max-width: 100%; max-height: 80px; object-fit: contain; filter: grayscale(20%); transition: filter 0.2s; }
     .logo-card:hover img { filter: grayscale(0%); }
-
-    /* Empty state */
-    .empty-state {
-      text-align: center;
-      padding: 5rem 2rem;
-      background: var(--pink-light);
-      border-radius: var(--radius);
-    }
-    .empty-state svg { opacity: 0.35; margin: 0 auto 1.25rem; display: block; }
+    .empty-state { text-align: center; padding: 5rem 2rem; background: var(--pink-light); border-radius: var(--radius); }
     .empty-state h3 { font-size: 1.2rem; color: var(--pink-dark); margin-bottom: 0.5rem; }
     .empty-state p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; max-width: 420px; margin: 0 auto; }
-
-    /* CTA strip */
     .cta-strip { background: var(--pink-light); padding: 3rem 2rem; text-align: center; }
     .cta-strip h2 { font-size: 1.5rem; color: var(--pink-dark); margin-bottom: 0.5rem; }
     .cta-strip p { font-size: 1rem; color: var(--text-muted); margin-bottom: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7; }
-    .btn { display: inline-block; background: var(--pink-dark); color: var(--white); padding: 0.75rem 2rem; border-radius: var(--radius); font-family: 'Arial', sans-serif; font-size: 0.95rem; letter-spacing: 0.04em; transition: background 0.2s; border: none; cursor: pointer; }
+    .btn { display: inline-block; background: var(--pink-dark); color: var(--white); padding: 0.75rem 2rem; border-radius: var(--radius); font-family: 'Arial', sans-serif; font-size: 0.95rem; letter-spacing: 0.04em; transition: background 0.2s; }
     .btn:hover { background: #b8536a; }
-
     footer { background: var(--pink-light); border-top: 2px solid var(--pink-mid); text-align: center; padding: 1.5rem 1rem; font-family: 'Arial', sans-serif; font-size: 0.82rem; color: var(--text-muted); }
     #cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background: var(--white); border-top: 2px solid var(--pink-mid); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; z-index: 200; flex-wrap: wrap; }
     #cookie-banner p { font-size: 0.88rem; color: var(--text-muted); }
@@ -139,37 +103,27 @@
 
   <section>
     <div class="container">
-
-      {% assign logo_files = "" | split: "" %}
-      {% for file in site.static_files %}
-        {% if file.path contains '/logos/' %}
-          {% assign ext = file.extname | downcase %}
-          {% if ext == '.png' or ext == '.jpg' or ext == '.jpeg' or ext == '.svg' or ext == '.webp' or ext == '.gif' %}
-            {% assign logo_files = logo_files | push: file %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      {% if logo_files.size > 0 %}
       <div class="logos-grid">
-        {% for logo in logo_files %}
-        <div class="logo-card">
-          <img src="{{ logo.path }}" alt="Client logo" loading="lazy" />
-        </div>
-        {% endfor %}
-      </div>
-      {% else %}
-      <div class="empty-state">
-        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 24 24" stroke="#d4637a" stroke-width="1.2">
-          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-          <circle cx="8.5" cy="8.5" r="1.5"/>
-          <polyline points="21 15 16 10 5 21"/>
-        </svg>
-        <h3>Logos coming soon</h3>
-        <p>Upload client logos to the <code>logos/</code> folder in the GitHub repo and they'll appear here automatically.</p>
-      </div>
-      {% endif %}
 
+        <!-- ================================================================
+          HOW TO ADD A CLIENT LOGO:
+          1. Upload the logo image file to the "logos/" folder in GitHub
+          2. Copy the block below and paste it above this comment
+          3. Change "logos/filename.png" to your actual filename
+          4. Change "Client Name" to the client's name (used for accessibility)
+
+          <div class="logo-card">
+            <img src="logos/filename.png" alt="Client Name" loading="lazy" />
+          </div>
+        ================================================================ -->
+
+        <!-- SAMPLE — remove this block once you have real logos -->
+        <div class="logo-card">
+          <img src="logos/feildinc.png" alt="FeildInc" loading="lazy" />
+        </div>
+        <!-- END SAMPLE -->
+
+      </div>
     </div>
   </section>
 
