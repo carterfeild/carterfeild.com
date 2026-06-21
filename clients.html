@@ -1,11 +1,13 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | CarterFeild</title>
-  <meta name="description" content="Get in touch with CarterFeild PR. We'd love to help elevate your brand." />
-  <meta property="og:title" content="Contact | CarterFeild" />
+  <title>Clients | CarterFeild</title>
+  <meta name="description" content="Brands CarterFeild PR has worked with — a showcase of clients we've helped grow and tell their stories." />
+  <meta property="og:title" content="Clients | CarterFeild" />
   <meta property="og:image" content="https://img1.wsimg.com/isteam/getty/625727674" />
   <meta name="theme-color" content="#ffe0e9" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +27,6 @@
     a { color: inherit; text-decoration: none; }
     header { position: sticky; top: 0; z-index: 100; background: var(--white); border-bottom: 2px solid var(--pink-light); padding: 0 1.5rem; }
     .nav-inner { max-width: var(--max-w); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 68px; }
-    .logo { font-size: 1.5rem; font-weight: bold; letter-spacing: 0.04em; color: var(--pink-dark); font-style: italic; }
     nav ul { list-style: none; display: flex; gap: 2rem; }
     nav a { font-size: 0.95rem; font-family: 'Arial', sans-serif; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text); padding-bottom: 4px; border-bottom: 2px solid transparent; transition: color 0.2s, border-color 0.2s; }
     nav a:hover, nav a.active { color: var(--pink-dark); border-bottom-color: var(--pink-dark); }
@@ -38,24 +39,53 @@
     main { flex: 1; }
     section { padding: 4rem 2rem; }
     .container { max-width: var(--max-w); margin: 0 auto; }
-    h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); color: var(--pink-dark); margin-bottom: 2rem; }
-    .contact-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
-    .form-group { margin-bottom: 1rem; }
-    .form-group label { display: block; font-size: 0.85rem; font-family: 'Arial', sans-serif; margin-bottom: 0.3rem; color: var(--text); }
-    .form-group input, .form-group textarea { width: 100%; padding: 0.65rem 0.9rem; border: 1px solid var(--pink-mid); border-radius: var(--radius); font-size: 0.95rem; font-family: 'Georgia', serif; background: #fff; transition: border-color 0.2s; }
-    .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--pink-dark); }
-    .form-group textarea { height: 130px; resize: vertical; }
-    .recaptcha-note { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 1rem; }
-    .recaptcha-note a { color: var(--pink-dark); text-decoration: underline; }
+
+    /* Logo grid */
+    .logos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.75rem;
+    }
+    .logo-card {
+      background: var(--white);
+      border: 1px solid var(--pink-light);
+      border-radius: var(--radius);
+      padding: 2rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s, transform 0.2s;
+      min-height: 120px;
+    }
+    .logo-card:hover { box-shadow: 0 6px 22px rgba(212,99,122,0.18); transform: translateY(-3px); }
+    .logo-card img {
+      max-width: 100%;
+      max-height: 80px;
+      object-fit: contain;
+      filter: grayscale(20%);
+      transition: filter 0.2s;
+    }
+    .logo-card:hover img { filter: grayscale(0%); }
+
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: var(--pink-light);
+      border-radius: var(--radius);
+    }
+    .empty-state svg { opacity: 0.35; margin: 0 auto 1.25rem; display: block; }
+    .empty-state h3 { font-size: 1.2rem; color: var(--pink-dark); margin-bottom: 0.5rem; }
+    .empty-state p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; max-width: 420px; margin: 0 auto; }
+
+    /* CTA strip */
+    .cta-strip { background: var(--pink-light); padding: 3rem 2rem; text-align: center; }
+    .cta-strip h2 { font-size: 1.5rem; color: var(--pink-dark); margin-bottom: 0.5rem; }
+    .cta-strip p { font-size: 1rem; color: var(--text-muted); margin-bottom: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto; line-height: 1.7; }
     .btn { display: inline-block; background: var(--pink-dark); color: var(--white); padding: 0.75rem 2rem; border-radius: var(--radius); font-family: 'Arial', sans-serif; font-size: 0.95rem; letter-spacing: 0.04em; transition: background 0.2s; border: none; cursor: pointer; }
     .btn:hover { background: #b8536a; }
-    .contact-info h4 { font-family: 'Arial', sans-serif; font-size: 1rem; color: var(--text); margin-bottom: 0.5rem; margin-top: 1.25rem; }
-    .contact-info p, .contact-info a { font-size: 0.95rem; color: var(--text-muted); line-height: 1.7; }
-    .contact-info a:hover { color: var(--pink-dark); }
-    .social-links { display: flex; gap: 1rem; margin-top: 0.75rem; flex-wrap: wrap; }
-    .social-links a { display: inline-flex; align-items: center; padding: 0.45rem 1rem; background: var(--pink-light); border-radius: 20px; font-family: 'Arial', sans-serif; font-size: 0.85rem; color: var(--text); transition: background 0.2s, color 0.2s; }
-    .social-links a:hover { background: var(--pink-dark); color: var(--white); }
-    .form-success { display: none; background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 0.75rem 1rem; border-radius: var(--radius); margin-top: 0.5rem; font-family: 'Arial', sans-serif; font-size: 0.9rem; }
+
     footer { background: var(--pink-light); border-top: 2px solid var(--pink-mid); text-align: center; padding: 1.5rem 1rem; font-family: 'Arial', sans-serif; font-size: 0.82rem; color: var(--text-muted); }
     #cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background: var(--white); border-top: 2px solid var(--pink-mid); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; z-index: 200; flex-wrap: wrap; }
     #cookie-banner p { font-size: 0.88rem; color: var(--text-muted); }
@@ -63,8 +93,8 @@
     #cookie-banner button:hover { background: #b8536a; }
     @media (max-width: 768px) {
       nav ul { display: none; } .hamburger { display: flex; }
-      .contact-layout { grid-template-columns: 1fr; }
       .nav-inner { height: 56px; }
+      .logos-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
     }
   </style>
 </head>
@@ -79,9 +109,9 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a href="clients.html">Clients</a></li>
+        <li><a href="clients.html" class="active">Clients</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         <li><a href="book.html" style="color:var(--pink-dark);border-bottom:2px solid var(--pink-dark);padding-bottom:4px;">Book</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
@@ -93,9 +123,9 @@
   <div class="mobile-nav" id="mobile-nav">
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
-    <a href="clients.html">Clients</a>
+    <a href="clients.html" class="active">Clients</a>
     <a href="blog.html">Blog</a>
-    <a href="contact.html" class="active">Contact</a>
+    <a href="contact.html">Contact</a>
     <a href="book.html">Book</a>
     <a href="about.html">About</a>
   </div>
@@ -103,47 +133,51 @@
 
 <main>
   <div class="page-header">
-    <h1>Contact Us</h1>
-    <p>We'd love to hear from you — let's start a conversation.</p>
+    <h1>Clients</h1>
+    <p>Brands we're proud to have worked with.</p>
   </div>
+
   <section>
     <div class="container">
-      <div class="contact-layout">
-        <div>
-          <h4 style="font-family:'Arial',sans-serif; font-size:1rem; color:var(--text-muted); font-weight:normal; margin-bottom:1.5rem;">Drop us a line!</h4>
-          <form id="contact-form" onsubmit="handleForm(event)">
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" />
-            </div>
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required placeholder="your@email.com" />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="How can we help you?"></textarea>
-            </div>
-            <p class="recaptcha-note">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.</p>
-            <button type="submit" class="btn">Send</button>
-            <div class="form-success" id="form-success">Thanks! We'll be in touch soon.</div>
-          </form>
+
+      {% assign logo_files = "" | split: "" %}
+      {% for file in site.static_files %}
+        {% if file.path contains '/logos/' %}
+          {% assign ext = file.extname | downcase %}
+          {% if ext == '.png' or ext == '.jpg' or ext == '.jpeg' or ext == '.svg' or ext == '.webp' or ext == '.gif' %}
+            {% assign logo_files = logo_files | push: file %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if logo_files.size > 0 %}
+      <div class="logos-grid">
+        {% for logo in logo_files %}
+        <div class="logo-card">
+          <img src="{{ logo.path }}" alt="Client logo" loading="lazy" />
         </div>
-        <div class="contact-info">
-          <h4>We are here to help you!</h4>
-          <p>We believe that a business with a great public relations team can make a great impact on the world. Take the first step: contact us, and together, we will help you get your message to the world.</p>
-          <h4>CarterFeild</h4>
-          <a href="mailto:Carter@CarterFeild.com">Carter@CarterFeild.com</a>
-          <h4 style="margin-top:1.5rem;">Connect With Us</h4>
-          <div class="social-links">
-            <a href="https://www.facebook.com/carter.feild.90" target="_blank" rel="noopener">Facebook</a>
-            <a href="https://www.instagram.com/carterfeildpr/" target="_blank" rel="noopener">Instagram</a>
-            <a href="https://www.linkedin.com/in/carterfeild/" target="_blank" rel="noopener">LinkedIn</a>
-          </div>
-        </div>
+        {% endfor %}
       </div>
+      {% else %}
+      <div class="empty-state">
+        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 24 24" stroke="#d4637a" stroke-width="1.2">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+          <circle cx="8.5" cy="8.5" r="1.5"/>
+          <polyline points="21 15 16 10 5 21"/>
+        </svg>
+        <h3>Logos coming soon</h3>
+        <p>Upload client logos to the <code>logos/</code> folder in the GitHub repo and they'll appear here automatically.</p>
+      </div>
+      {% endif %}
+
     </div>
   </section>
+
+  <div class="cta-strip">
+    <h2>Want to be on this page?</h2>
+    <p>Let's work together to build, grow, and protect your brand. Book a free consultation to get started.</p>
+    <a href="book.html" class="btn">Book a Free Consultation</a>
+  </div>
 </main>
 
 <footer>
@@ -157,7 +191,6 @@
 
 <script>
   document.getElementById('hamburger').addEventListener('click', function() { document.getElementById('mobile-nav').classList.toggle('open'); });
-  function handleForm(e) { e.preventDefault(); var s = document.getElementById('form-success'); s.style.display='block'; e.target.reset(); setTimeout(function(){ s.style.display='none'; }, 5000); }
   if (localStorage.getItem('cf_cookies')) document.getElementById('cookie-banner').style.display = 'none';
   document.getElementById('accept-cookies').addEventListener('click', function() { localStorage.setItem('cf_cookies','1'); document.getElementById('cookie-banner').style.display='none'; });
 </script>
