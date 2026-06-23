@@ -25,11 +25,17 @@ Traditional PR focuses on controlling a narrative. This includes issuing press r
 **•	Aerie’s #ArieREAL Campaign.**
 The viral #AerieREAL campaign on social media was an impactful movement in 2020 that encouraged body positivity in women. The purpose of this campaign was to encourage comfortability in women by posting unfiltered, unedited, and authentic photos of themselves to spread awareness for the rising concern of women’s body image.
 
+<img width="194" height="146" alt="image" align="center" src="https://github.com/user-attachments/assets/08c43c05-30b4-4513-9b15-c89f49c74044" />
+
 **•	Coca Cola’s Share a Coke Campaign.**
 Coca-Cola’s Share a Coke Campaign encouraged people to find bottles with their names and post them online. 
 
+<img width="224" height="126" alt="image" align="center" src="https://github.com/user-attachments/assets/1fdc09c3-0228-457a-8e07-2375056a7a68" />
+
 **•	#ShotOniPhone.**
 Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Apple invited its users to post their best photos taken on iPhones to highlight the camera quality and the creativity of its consumers. This was widely successful as it strengthened and showcased the product’s value without using traditional advertising methods. 
+
+<img width="232" height="122" alt="image" align="center" src="https://github.com/user-attachments/assets/443e5394-577d-48ff-a894-36f1ffa06334" />
 
 ## Here are 5 Ways to Create Instagrammable Moments
 
@@ -39,7 +45,7 @@ When planning an event or campaign, ask yourself: ‘Would my audience want to t
 ** 2.	Capture It While It’s Happening 📸**
 Don’t only capture pictures of the set up beforehand, or the aftermath. People love to see the behind-the-scenes and candid shots of the audience actively enjoying your event. Remember the phrase: “pics or it didn’t happen.” Pictures tell better than words! If your audience enjoyed the event, show that! Also, don’t rely solely on user content - take your own pictures, too! 
 	
-	Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
+Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
 
 
 ** 3.	Make it Shareable! 📲**
@@ -51,7 +57,7 @@ The most shareable moments aren’t always the most aesthetic - they’re the mo
 ** 5. 5.	Go Above and Beyond - Think Beyond the Event💭**
 As you create content for your event, be sure to also get footage to turn into Instagram Reels and Highlight Reels, TikTok recap videos, Blogs, and more! 
 	
-	Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
+Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
 
 ## Moments > Messaging
 
