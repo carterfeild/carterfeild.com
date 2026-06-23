@@ -22,20 +22,20 @@ Traditional PR focuses on controlling a narrative. This includes issuing press r
 
 ## Here Are Some Brands That Have Successfully Increased Their Brands Engagement From UGC Usage:
 
-**•	Aerie’s #ArieREAL Campaign.**
+###•	Aerie’s #ArieREAL Campaign.
 The viral #AerieREAL campaign on social media was an impactful movement in 2020 that encouraged body positivity in women. The purpose of this campaign was to encourage comfortability in women by posting unfiltered, unedited, and authentic photos of themselves to spread awareness for the rising concern of women’s body image.
 
-<img width="194" height="146" alt="image" class="centered-image" src="/images/Aerie.png" />
+<div style="text-align: center;"><img width="194" height="146" alt="image" src="/images/Aerie.png" /></div>
 
-**•	Coca Cola’s Share a Coke Campaign.**
+###•	Coca Cola’s Share a Coke Campaign.
 Coca-Cola’s Share a Coke Campaign encouraged people to find bottles with their names and post them online. 
 
-<img width="224" height="126" alt="image" class="centered-image" src="/images/coke.png" />
+<div style="text-align: center;"><img width="224" height="126" alt="image" src="/images/coke.png" /></div>
 
-**•	#ShotOniPhone.**
+###•	#ShotOniPhone.
 Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Apple invited its users to post their best photos taken on iPhones to highlight the camera quality and the creativity of its consumers. This was widely successful as it strengthened and showcased the product’s value without using traditional advertising methods. 
 
-<img width="232" height="122" alt="image" class="centered-image" src="/images/iphone.png" />
+<div style="text-align: center;"><img width="232" height="122" alt="image" src="/images/iphone.png" /></div>
 
 ## Here are 5 Ways to Create Instagrammable Moments
 
