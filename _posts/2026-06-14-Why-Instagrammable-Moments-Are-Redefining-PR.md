@@ -25,12 +25,12 @@ Traditional PR focuses on controlling a narrative. This includes issuing press r
 **•	Aerie’s #ArieREAL Campaign.**
 The viral #AerieREAL campaign on social media was an impactful movement in 2020 that encouraged body positivity in women. The purpose of this campaign was to encourage comfortability in women by posting unfiltered, unedited, and authentic photos of themselves to spread awareness for the rising concern of women’s body image.
 
-<img width="194" height="146" alt="image" align="center" src="/images/Aerie.png" />
+<img width="194" height="146" alt="image" class="centered-image" src="/images/Aerie.png" />
 
 **•	Coca Cola’s Share a Coke Campaign.**
 Coca-Cola’s Share a Coke Campaign encouraged people to find bottles with their names and post them online. 
 
-<img width="224" height="126" alt="image" align="center" src="https://github.com/user-attachments/assets/1fdc09c3-0228-457a-8e07-2375056a7a68" />
+<img width="224" height="126" alt="image" class="centered-image" src="/images/coke.png" />
 
 **•	#ShotOniPhone.**
 Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Apple invited its users to post their best photos taken on iPhones to highlight the camera quality and the creativity of its consumers. This was widely successful as it strengthened and showcased the product’s value without using traditional advertising methods. 
