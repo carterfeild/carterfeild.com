@@ -47,6 +47,7 @@ Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Appl
 <p>
 	Don’t only capture pictures of the set up beforehand, or the aftermath. People love to see the behind-the-scenes and candid shots of the audience actively enjoying your event. Remember the phrase: “pics or it didn’t happen.” Pictures tell better than words! If your audience enjoyed the event, show that! Also, don’t rely solely on user content - take your own pictures, too! 
 	
+	
 	Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
 </p>
 ### 3.	Make it Shareable! 📲
@@ -60,6 +61,7 @@ Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Appl
 ### 5.	Go Above and Beyond - Think Beyond the Event💭
 <p>
 	As you create content for your event, be sure to also get footage to turn into Instagram Reels and Highlight Reels, TikTok recap videos, Blogs, and more! 
+	
 	
 	Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
 </p>
