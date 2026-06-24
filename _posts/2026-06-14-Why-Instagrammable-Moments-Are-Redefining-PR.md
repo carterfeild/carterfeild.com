@@ -40,27 +40,29 @@ Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Appl
 ## Here are 5 Ways to Create Instagrammable Moments
 
 ### 1.	Design for the camera aesthetics ✨
+<p>
 	When planning an event or campaign, ask yourself: ‘Would my audience want to take a picture here?’ or, ‘Would my audience be encouraged to engage?’
-
+</p>
 ### 2.	Capture It While It’s Happening 📸
+<p>
 	Don’t only capture pictures of the set up beforehand, or the aftermath. People love to see the behind-the-scenes and candid shots of the audience actively enjoying your event. Remember the phrase: “pics or it didn’t happen.” Pictures tell better than words! If your audience enjoyed the event, show that! Also, don’t rely solely on user content - take your own pictures, too! 
 	
 	Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
-
+</p>
 ### 3.	Make it Shareable! 📲
-
+<p>
 	Create a hashtag for your brand and make sure to use it prominently and consistently! Also, encourage tagging from your audience to increase visibility and recommendations! Start by asking yourself, ‘If I walked into this experience today, would I want to share it?’ If yes, you’re golden!
-
+</p>
 ### 4.	Be Bold! 💡
-
+<p>
 	The most shareable moments aren’t always the most aesthetic - they’re the most memorable! Be original! Don’t just follow trends - set them!
-
+</p>
 ### 5.	Go Above and Beyond - Think Beyond the Event💭
-
+<p>
 	As you create content for your event, be sure to also get footage to turn into Instagram Reels and Highlight Reels, TikTok recap videos, Blogs, and more! 
 	
 	Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
-
+</p>
 ## Moments > Messaging
 
 In 2026, the new era of Instagrammable (and social media) Moments are transforming the PR world. Your audience does not want to be talked at, they want to be a part of the story - they want to feel that they are contributing! It is time to stop thinking about your events, products, and/or services as just events, products, and/or services, and start seeing them as moments and a community!
