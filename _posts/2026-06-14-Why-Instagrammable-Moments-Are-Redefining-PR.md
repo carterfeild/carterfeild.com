@@ -39,25 +39,27 @@ Another successful UGC campaign was Apple’s #ShotOniPhone campaign, where Appl
 
 ## Here are 5 Ways to Create Instagrammable Moments
 
-** 1.	Design for the camera aesthetics ✨**
-When planning an event or campaign, ask yourself: ‘Would my audience want to take a picture here?’ or, ‘Would my audience be encouraged to engage?’
+### 1.	Design for the camera aesthetics ✨
+	When planning an event or campaign, ask yourself: ‘Would my audience want to take a picture here?’ or, ‘Would my audience be encouraged to engage?’
 
-** 2.	Capture It While It’s Happening 📸**
-Don’t only capture pictures of the set up beforehand, or the aftermath. People love to see the behind-the-scenes and candid shots of the audience actively enjoying your event. Remember the phrase: “pics or it didn’t happen.” Pictures tell better than words! If your audience enjoyed the event, show that! Also, don’t rely solely on user content - take your own pictures, too! 
+### 2.	Capture It While It’s Happening 📸
+	Don’t only capture pictures of the set up beforehand, or the aftermath. People love to see the behind-the-scenes and candid shots of the audience actively enjoying your event. Remember the phrase: “pics or it didn’t happen.” Pictures tell better than words! If your audience enjoyed the event, show that! Also, don’t rely solely on user content - take your own pictures, too! 
 	
-Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
+	Pro tip🤫: Don’t only take horizontal content! Vertical content is becoming more popular as the usage of Instagram Reels and Stories, and TikToks are becoming increasingly popular!
 
+### 3.	Make it Shareable! 📲
 
-** 3.	Make it Shareable! 📲**
-Create a hashtag for your brand and make sure to use it prominently and consistently! Also, encourage tagging from your audience to increase visibility and recommendations! Start by asking yourself, ‘If I walked into this experience today, would I want to share it?’ If yes, you’re golden!
+	Create a hashtag for your brand and make sure to use it prominently and consistently! Also, encourage tagging from your audience to increase visibility and recommendations! Start by asking yourself, ‘If I walked into this experience today, would I want to share it?’ If yes, you’re golden!
 
-** 4.	Be Bold! 💡**
-The most shareable moments aren’t always the most aesthetic - they’re the most memorable! Be original! Don’t just follow trends - set them!
+### 4.	Be Bold! 💡
 
-** 5. 5.	Go Above and Beyond - Think Beyond the Event💭**
-As you create content for your event, be sure to also get footage to turn into Instagram Reels and Highlight Reels, TikTok recap videos, Blogs, and more! 
+	The most shareable moments aren’t always the most aesthetic - they’re the most memorable! Be original! Don’t just follow trends - set them!
+
+### 5.	Go Above and Beyond - Think Beyond the Event💭
+
+	As you create content for your event, be sure to also get footage to turn into Instagram Reels and Highlight Reels, TikTok recap videos, Blogs, and more! 
 	
-Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
+	Pro tip🤫: One event can create weeks worth of content! Get as much as you can! And while you’re at it, create a content calendar to keep everything scheduled! 
 
 ## Moments > Messaging
 
